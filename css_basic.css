@@ -1,0 +1,55 @@
+header {
+  background-color: gray;
+  height:100px;
+  line-height: 100px;
+  text-align: center;
+  position : relative;
+}
+
+#logo {
+  background-color: skyblue;
+  float : left;
+  height: 100px;
+  width : 100px;
+}
+
+#myinfo {
+  margin-left: 50px;
+  float : left;
+}
+
+nav {
+  background-color: orange;
+  height : 40px;
+  position: static;
+}
+
+nav > ul {
+  overflow : auto;
+}
+
+nav > ul > li {
+  float : right;
+  margin : 10px 10px;
+  list-style: none;
+}
+
+.container {
+  width : 1080px;
+  height : 400px;
+  margin : 10px auto;
+  border: 1px solid gray;
+  padding: 10px 10px;
+}
+
+footer {
+  border: 1px solid gray;
+  text-align: right;
+  line-height: 40px;
+  height : 40px;
+}
+
+footer > span {
+  margin-right : 30px;
+
+}
