@@ -1,0 +1,43 @@
+body {
+  background-color: #8bd0b3;
+}
+
+header {
+  height : 70px;
+  margin: 5px 5px 0px 5px;
+  background-color: white;
+  overflow: auto;
+}
+
+nav > ul > li {
+  width : 120px;
+  height : 25px;
+  color:blue;
+  background-color: #9cd2d2;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius: 5px;
+  list-style: none;
+  text-align: center;
+  float : right;
+  margin-right : 10px;
+  position : relative;
+  vertical-align: middle;
+  padding-top : 9px;
+}
+
+section {
+  height : 800px;
+  margin: 5px 5px 0px 5px;
+  background-color: white;
+  text-align: center;
+}
+
+section > h1 {
+  margin: 0px;
+  padding-top: 20px;
+}
+
+#description {
+  font-size: 12px;
+  padding-top : 20px;
+}
