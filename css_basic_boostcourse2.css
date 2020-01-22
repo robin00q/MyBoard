@@ -1,0 +1,48 @@
+li {
+  list-style: none;
+}
+
+#top {
+  overflow: auto;
+}
+
+body {
+  margin : 0px 10px;
+}
+
+#add-todo {
+  background-color: #1BA3EB;
+  width : 200px;
+  height : 40px;
+  font-size: 1em;
+  color : white;
+  float : right;
+  margin : 40px 0px;
+}
+
+#lists {
+  overflow: auto;
+}
+
+.list-tag {
+  width : 32%;
+  box-sizing: border-box;
+  margin-top : 0px;
+  float : left;
+  padding-inline-start : px;
+}
+
+#list-center {
+  margin : 0px 2%;
+}
+
+.list-tag > li:first-child {
+  background-color: #2E4A56;
+  height : 60px;
+  line-height: 60px;
+  font-size: 1.3em;
+  padding-left: 15px;
+  color : white;
+  float: left;
+  width : 100%;
+}
