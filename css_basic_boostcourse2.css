@@ -2,12 +2,23 @@ li {
   list-style: none;
 }
 
+body {
+  margin : 0px 20px;
+}
+
 #top {
   overflow: auto;
 }
 
-body {
-  margin : 0px 10px;
+#rotate-text {
+  transform : rotate(-30deg);
+  position : absolute;
+  top : 20px;
+}
+
+#top p {
+  font-size: 2em;
+  color: #2E4A56;
 }
 
 #add-todo {
@@ -20,23 +31,23 @@ body {
   margin : 40px 0px;
 }
 
-#lists {
+#todo-lists {
   overflow: auto;
+  width : 90%;
+  float: right;
 }
 
 .list-tag {
-  width : 32%;
-  box-sizing: border-box;
+  width : 33%;
   margin-top : 0px;
   float : left;
-  padding-inline-start : px;
 }
 
 #list-center {
-  margin : 0px 2%;
+  margin : 0px 0.5%;
 }
 
-.list-tag > li:first-child {
+.list-tag > div {
   background-color: #2E4A56;
   height : 60px;
   line-height: 60px;
@@ -45,4 +56,5 @@ body {
   color : white;
   float: left;
   width : 100%;
+  box-sizing: border-box;
 }
